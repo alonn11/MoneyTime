@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true
   "homepage": "https://alonn11.github.io/MoneyTime/",
-  "scripts": {
-     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+ "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
-
-  },
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
     "@radix-ui/react-slot": "^1.0.2",
