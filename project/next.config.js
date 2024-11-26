@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: {
-    unoptimized: true
-  }
+    basePath: '/MoneyTime',
+    output: 'export',  // עבור static export
+    images: {
+        unoptimized: true // נדרש עבור static export
+    }
 }
 
 module.exports = nextConfig
