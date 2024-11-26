@@ -1,11 +1,15 @@
 {
   "name": "money-time",
   "version": "0.1.0",
-  "private": true,
+  "private": true
+  "homepage": "https://alonn11.github.io/MoneyTime/",
   "scripts": {
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
+
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
